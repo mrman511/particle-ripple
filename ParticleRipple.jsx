@@ -18,6 +18,7 @@ export default function ParticleRipple(props){
     staticParticleMaxRadius,
     staticParticleColor
   } = props;
+  
   const canvasRef = useRef(null);
   const staticRef = useRef(null)
   const particleGrid = useRef();
