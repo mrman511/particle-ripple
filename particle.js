@@ -5,7 +5,7 @@ export default class Particle {
     this._y = y;
     this._maxRadius=maxRadius;
     this._radius = maxRadius;
-    this._colour = `rgba(${colour[0]}, ${colour[1]}, ${colour[2]}, ${ colour[3] })`;
+    this._colour = `rgba(${colour[0]}, ${colour[1]}, ${colour[2]}, ${ colour[3] ? colour[3] : 1 })`;
     
     if (isDynamic){
       this._speed = ((maxRadius-.2)/speed);
