@@ -1,0 +1,25 @@
+{
+  "name": "particle-ripple",
+  "version": "1.0.0",
+  "description": "Class based particle ripple animation for react applications",
+  "main": "ParticleRipple.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrman511/particle-ripple.git"
+  },
+  "keywords": [
+    "animation"
+  ],
+  "author": "Paul Bodner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrman511/particle-ripple/issues"
+  },
+  "homepage": "https://github.com/mrman511/particle-ripple#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
