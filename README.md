@@ -1,6 +1,9 @@
 # Particle Ripple
 
+**This Component was created as visual representation of javascript class base data structures and Algorithism, and uses a constantly refreshing state during the animation and re-rendering particles with data manipulation. Do to the design CPU usage can be extremely heavy when particle density is increased: *Represented as O(n^2).***
+
 This package includes a React Component ParticleRipple intended to be used as an animated background. This Componet uses a Class based ParticleGrid and Particle to create a ripple effect originating from the point of the initial click. The Component uses a ```<canvas>``` html element and is costumizable to users preferences.
+
 
 ### To install:
 ```
@@ -10,6 +13,7 @@ npm install particle-ripple --save
 
 ### Import into file:
 ```
+import ParticleRipple from 'particle-ripple';
 ```
 
 <br>
