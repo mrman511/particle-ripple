@@ -109,8 +109,8 @@ export default function ParticleRipple(props){
 
   return (
     <>
-      <canvas ref={ canvasRef } style='positon: absolute; height: 115%; width: [115%]; left: 7.5%; top:7.5%'></canvas>
-      <canvas ref={ staticRef } style='positon: absolute; height: 115%; width: [115%]; left: 7.5%; top:7.5%'></canvas>
+      <canvas ref={ canvasRef } style={{ positon: 'absolute', height: '115%', width: '115%', left: '-7.5%', top: '-7.5%'}}></canvas>
+      <canvas ref={ staticRef } style={{ positon: 'absolute', height: '115%', width: '115%', left: '-7.5%', top: '-7.5%'}}></canvas>
     </>
   )
 }

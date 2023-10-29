@@ -1,6 +1,6 @@
 {
   "name": "particle-ripple",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Class based particle ripple animation for react applications",
   "main": "ParticleRipple.jsx",
   "scripts": {
